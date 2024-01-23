@@ -1,0 +1,38 @@
+.input {
+  padding: 8px 10px;
+  min-width: 200px;
+  text-shadow: 1px 1px 2px rgb(16, 15, 16);
+}
+label {
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  height: 35px;
+  cursor: pointer;
+  background-color: rgb(197, 191, 202);
+  transition: background-color 350ms cubic-bezier(0.47, 0, 0.745, 0.715),
+    color 350ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.btn:hover,
+.btn.focus {
+  background-color: rgb(170, 137, 200);
+  color: rgb(0, 0, 0);
+}
+input,
+button {
+  border-radius: 8px;
+  border-color: rgb(229, 29, 29);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 210px;
+}
+.listContacts {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  gap: 8px;
+}
